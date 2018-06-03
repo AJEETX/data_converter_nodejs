@@ -1,0 +1,104 @@
+{
+  "PurchaseOrders": [
+    {
+      "PurchaseOrder": {
+        "CustomerPo": "PO2008-01",
+        "Supplier": "SFC01",
+        "Origin": "CNSHA",
+        "Destination": "AUMEL",
+        "CargoReady": "2014-01-05",
+        "Lines": [
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "1",
+              "ProductDescription": "RED LOUNGES",
+              "OrderQty": "100"
+            }
+          },
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "2",
+              "ProductDescription": "GREY LOUNGES",
+              "OrderQty": "50"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "PurchaseOrder": {
+        "CustomerPo": "PO2008-02",
+        "Supplier": "YIP-1",
+        "Origin": "CNYTN",
+        "Destination": "AUSYD",
+        "CargoReady": "2018-06-03",
+        "Lines": [
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "1",
+              "ProductDescription": "BAR STOOLS",
+              "OrderQty": "40"
+            }
+          },
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "2",
+              "ProductDescription": "METAL TABLES",
+              "OrderQty": "75"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "PurchaseOrder": {
+        "CustomerPo": "PO2008-03",
+        "Supplier": "SFC01",
+        "Origin": "CNSHA",
+        "Destination": "AUMEL",
+        "CargoReady": "2014-01-07",
+        "Lines": [
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "1",
+              "ProductDescription": "RED CHAIRS",
+              "OrderQty": "33"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "PurchaseOrder": {
+        "CustomerPo": "PO2008-04",
+        "Supplier": "SFC01",
+        "Origin": "CNSHA",
+        "Destination": "AUMEL",
+        "CargoReady": "2018-06-03",
+        "Lines": [
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "1",
+              "ProductDescription": "GREEN BEDS",
+              "OrderQty": "33"
+            }
+          },
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "2",
+              "ProductDescription": "GREEN TABLES",
+              "OrderQty": "44"
+            }
+          },
+          {
+            "PurchaseOrderLine": {
+              "LineNumber": "3",
+              "ProductDescription": "GREEN LAMPS",
+              "OrderQty": "55"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

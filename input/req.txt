@@ -1,0 +1,48 @@
+netsh http add urlacl url=https://localhost:99/ user=everyone
+Development Task
+----------------
+
+
+A client is providing us with a structured file of their orders.
+The client provides orders in a comma delimited file. An order must have at least one row, but can have many rows. Line numbers in order details must be unique.
+
+Rows in the file are grouped into Header records and Detail records, as per the following structure.
+
+Header Record
+-------------
+Column 1: H
+Column 2: Purchase Order Number
+Column 3: Supplier
+Column 4: Origin
+Column 5: Destination
+Column 6: Cargo Ready date
+
+Detail Record
+-------------
+Column 1: D
+Column 2: Purchase Order Number
+Column 3: Line Number
+Column 4: Item Description
+Column 5: Order Qty
+
+The customer may not provide a destination in the header, if no destination is provided, the default should be ascertained based on the supplier.
+SHANGHAI FURNITURE COMPANY - code SFC01 - defaults to Melbourne AUMEL
+YANTIAN INDUSTRIAL PRODUCTS - code YIP-1 - defaults to Sydney AUSYD
+
+Your task is to process the file and convert it into an XML representation.
+
+The solution must be implemented using the C# language and any version of the .NET framework may be used.
+
+Choice of UI/frontend is up to the individual but a console application is perfectly acceptable.
+
+Your solution will be assessed on clarity and structure of your code, as well as your solution's ability to correctly process and transform the data.
+A robust and functional solution which elegantly handles invalid input will be well regarded.
+Automated Unit/integration tests are also recommended, at the very least code should be structured in such a way that it could readily be unit tested.
+Separation of concerns, readability and simplicity will be highly regarded (KISS, DRY, SOLID, etc.)
+
+NOTE
+----
+The focus of this assignment should be on showing how you can write well structured, testable code. It is intended to form the basis for a conversation about coding for the next interview.
+It should not be considered a test of your ability to use any specific technology (beyond the ability to build an application in C# using any framework you like). Your choice of  framework will make very little to no difference from our perspective.
+
+Solutions should be provided as a zipped Visual Studio project including all necessary source files, DLLs, collateral and documentation as appropriate.
