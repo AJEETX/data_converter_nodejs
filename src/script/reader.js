@@ -1,4 +1,4 @@
-module.exports=class Reader
+var reader=class Reader
 {
     readWrite(inputFile){
 
@@ -12,8 +12,11 @@ module.exports=class Reader
         
         let ordersObj = new converter().convert2Object(fileContents.toString());
    
-        console.log(o2x({ PurchaseOrders:ordersObj})) // converted to xml
+        let objPurchaseOrders=o2x({ PurchaseOrders:ordersObj});
+        
+        console.log(objPurchaseOrders) // converted to xml
 
-    return o2x({ PurchaseOrders:ordersObj});
+        return objPurchaseOrders;
     }
 }
+module.exports=reader;

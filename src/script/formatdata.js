@@ -8,6 +8,8 @@ module.exports=class FormatData
 
         const dateFormat=require('dateformat');
             
+        //strategy design pattern can be applied here
+
         if(arrOrder[2]==sc01){
             
             arrOrder[2]='SFC01'

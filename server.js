@@ -8,7 +8,7 @@ const app = express();
 
 app.use('/',express.static(__dirname + '/src/view'));
 
-app.use('/convert',routes);
+app.use('/run',routes);
 
 const server = app.listen(port, function () {
 

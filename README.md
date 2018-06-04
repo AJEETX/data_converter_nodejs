@@ -11,7 +11,7 @@
 
     > npm init
     > npm install 
-    > nodemon main
+    > nodemon run
 
     Open the browser "localhost:5050"
 
