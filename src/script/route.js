@@ -10,9 +10,9 @@ router.get('/',function(req,res){
   
   let input='./input/data.csv';
   
-  let json=reader(input);
+  let json=new reader().readWrite(input);
 
-  res.setHeader('Content-Type', 'plain/text; charset=utf-8')
+  res.setHeader('Content-Type', 'application/xml; charset=utf-8')
 
   res.status(200).send(json);
 })
